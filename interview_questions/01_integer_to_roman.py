@@ -14,10 +14,9 @@ class Solution:
                 num %= val
         return result
             
-
             
 if __name__ == "__main__":
     input_number = input("Enter integer: ")
     answer = Solution().intToRoman(int(input_number))
-    print(f"Roman numeral: {answer}")
+    print(f"Output roman numeral: {answer}")
     
