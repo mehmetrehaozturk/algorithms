@@ -4,7 +4,7 @@ import traceback
 
 
     
-def create_random_list(min_value: int, max_value: int, size: int):
+def create_random_list(min_value: int = -100, max_value: int = 100, size: int = 20):
 
     random_numbers_list = [random.randint(min_value, max_value) for _ in range(size)]
 

@@ -16,4 +16,5 @@ def selectionSort(numbers_list: list):
     return numbers_list
     
 if __name__ == "__main__":
- selectionSort(create_random_list(min_value=-10, max_value=100, size=30))
+ sorted_list = selectionSort(create_random_list(min_value=-10, max_value=100, size=30))
+ print(sorted_list)

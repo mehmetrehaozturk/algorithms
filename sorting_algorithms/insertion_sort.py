@@ -16,4 +16,5 @@ def insertionSort(numbers_list: list):
 
 
 if __name__ == "__main__":
- insertionSort(create_random_list(min_value=-10, max_value=100, size=30))
+ sorted_list = insertionSort(create_random_list(min_value=-10, max_value=100, size=30))
+ print(sorted_list)
